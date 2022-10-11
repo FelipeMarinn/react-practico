@@ -21,7 +21,7 @@ const App = () => {
 
 	return (
 		<AppContext.Provider value={ initialState }>
-			<BrowserRouter basename='/react-practico'>
+			<BrowserRouter>
 			  <Layout>
 			  	  <Switch>
 			  	  	  <Route exact path="/" component={Home} />
