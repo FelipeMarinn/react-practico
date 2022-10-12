@@ -24,7 +24,7 @@ const App = () => {
 			<BrowserRouter>
 			  <Layout>
 			  	  <Switch>
-			  	  	  <Route path="/react-practico" component={Home} />
+			  	  	  <Route path="/" component={Home} />
 			  	  	  <Route exact path="/login" component={Login} />
 			  	  	  <Route exact path="/password-recovery" component={PasswordRecovery} />
 			  	  	  <Route exact path="/send-email" component={SendEmail} />
